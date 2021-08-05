@@ -1,0 +1,7 @@
+.menuContent{
+    height: auto;
+    width: 100%;
+    border: 3px solid #b5a373;
+    border-top: 0px solid ;
+    cursor: pointer;
+}

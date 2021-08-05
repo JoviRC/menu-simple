@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* fondo: #212121
+el amarillo #b5a373
+
+letras menu Crochet
+letra nombre alimentos Motion Picture */
+
+
+@font-face {
+  font-family: Crochet;
+  src: url('./assets/fonts/Crochet.otf');
+}
+@font-face {
+  font-family:MotionPicture;
+  src: url('./assets/fonts/MotionPicture.ttf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #212121;
+  color: #ffffff;
 }
+

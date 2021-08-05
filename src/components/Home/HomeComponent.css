@@ -1,0 +1,19 @@
+.homeContent {
+  border: solid 5px #b5a373;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-content: space-between;
+}
+.homeLogo {
+  margin: 10vw 0 10vw 10vw;
+  width: auto;
+}
+.homeTitule {
+  margin: 10vw 10vw 10vw 10vw;
+  line-height: 2;
+  font-family: Crochet;
+  font-size: 3rem;
+  margin-left: auto;
+
+}
