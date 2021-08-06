@@ -1,7 +1,45 @@
-.menuContent{
-    height: auto;
-    width: 100%;
-    border: 3px solid #b5a373;
-    border-top: 0px solid ;
-    cursor: pointer;
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+.menuContent {
+  height: auto;
+  width: 100%;
+  border: 5px solid #b5a373;
+  border-top: 0px solid;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  align-items: center;
+  padding: 20px;
+  transition: all 1s;
+}
+
+.platosContent {
+  margin-right: auto;
+  display: none;
+  transition: all 1s;
+}
+
+.platosContent--active {
+  display: block;
+  transition: all 1s;
+}
+.menuTipo {
+  width: 100%;
+  text-align: center;
+  font-family: Crochet,serif;
+}
+.menuLi {
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+}
+.menuMenu {
+  margin-right: auto;
+  margin-top: 1rem;
+  padding-right: 1rem;
+  font-family: 'MonteCarlo', cursive;
+}
+.menuPrice {
+  margin-left: auto;
 }
