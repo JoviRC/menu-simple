@@ -9,9 +9,7 @@ export default function App() {
     <>
       <HomeComponent />
       <div>
-        <ul>
           <MenuComponent />
-        </ul>
       </div>
     </>
   );

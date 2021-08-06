@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap");
 
 .menuContent {
   height: auto;
@@ -10,7 +10,7 @@
   margin-left: auto;
   align-items: center;
   padding: 20px;
-  transition: all 1s;
+  transition: height 1s;
 }
 
 .platosContent {
@@ -26,7 +26,7 @@
 .menuTipo {
   width: 100%;
   text-align: center;
-  font-family: Crochet,serif;
+  font-family: Crochet, serif;
 }
 .menuLi {
   width: 100%;
@@ -38,7 +38,7 @@
   margin-right: auto;
   margin-top: 1rem;
   padding-right: 1rem;
-  font-family: 'MonteCarlo', cursive;
+  font-family: "MonteCarlo", cursive;
 }
 .menuPrice {
   margin-left: auto;
