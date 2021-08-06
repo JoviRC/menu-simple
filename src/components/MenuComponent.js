@@ -1,14 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./MenuComponent.css";
 
 import { MenuBd } from "../datos/DatosMenu";
 
 export const MenuComponent = () => {
   const [visible, setVisible] = useState("");
-  const [index, setIndex] = useState(0);
-  const toogleVisible = () => {
-    setVisible((v) => !v);
-  };
 
   const componentClickeado = (idx) => {
     if (visible === idx) {
